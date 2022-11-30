@@ -1,0 +1,16 @@
+.mainNav {
+    min-height: 100vh;
+    width: 80%;
+    padding: 20px;
+}
+
+
+.mainNav-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.plusSign {
+    margin-inline-start: auto;
+}

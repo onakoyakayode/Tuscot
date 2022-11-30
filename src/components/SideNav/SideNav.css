@@ -1,0 +1,30 @@
+.sidenav {
+    padding-top: 20px;
+}
+.sidenavs li {
+    list-style: none;
+    margin-block: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #929191;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidenavs li:hover {
+    color: #8555DB;
+    cursor: pointer;
+}
+
+
+.sidenavs li::after:focus,
+.sidenavs li:active::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    background-color: #8555DB;
+    right: 0.3rem;
+}
+
+
